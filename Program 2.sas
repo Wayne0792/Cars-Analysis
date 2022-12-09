@@ -4,3 +4,9 @@ proc import out=new_data
     replace;
     getnames=YES;
 run;
+
+/*Adds a unique ID to the table*/
+data new_data;
+set new_data;
+id = _N_;
+run;
