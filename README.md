@@ -30,7 +30,7 @@ The dataset includes detailed vehicle characteristics. The key features analyzed
 
 The analysis followed a standard data science pipeline: Data Cleaning and Feature Engineering (handling missing values, standardization) $\rightarrow$ Exploratory Data Analysis (EDA) $\rightarrow$ Model Selection and Training.
 
-* **Tools:** Python with `pandas`, `numpy`, `matplotlib`, `seaborn`, and `scikit-learn`.
+* **Tools:** SAS OnDemand for Academics.
 
 ## ## 💡 Key Findings from EDA
 
