@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_carsproj",
+  "source_file": "CarsProj.sas",
+  "source_blob_sha": "c5c6add9cfab26d99dc12d190e5553ce78313243",
+  "source_commit": "b9ae7337a7bab9adfbf1b88d2d657f935ddbdbe6",
+  "notes": "Full CarsProj.sas car-pricing pipeline: PROC IMPORT replaced with an inline DATALINES step (37-row sample of cars_clean - Cars Data1.csv, same columns/types) so the bundle is self-contained; hardcoded SAS OnDemand path dropped. Author's logic unchanged — id assignment, PROC SORT, the compress(MSRP,,'kd')/input(...) MSRP-vs-Invoice profit computation into data2, the %inserting and %modify macros, PROC PRINT/CONTENTS/MEANS, and the PROC SGPLOT vbar/scatter/hbar/histogram charts. One PROC TEMPLATE + PROC SGRENDER pie block near the end used a construct not yet parsed by the engine and was omitted from this bundle."
+}
